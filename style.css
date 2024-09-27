@@ -111,7 +111,7 @@ html, body{
     display: none;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
     .card {
         padding: 10px;
         align-items: flex-start;
