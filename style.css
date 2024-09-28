@@ -18,13 +18,16 @@ html, body{
     color: white;
     background: linear-gradient(125deg, red,green);
     width: 90%;
+    max-height: 100vh;
+    overflow-y: hidden;
 }
 
 @media (max-width: 600px) {
     body{
         align-items: flex-start;
         display: flex;
-        position: fixed;
+        position: relative;
+        overflow: hidden;
     }
     .card {
         height: 100vh;
@@ -122,4 +125,3 @@ html, body{
 ::-webkit-scrollbar {
     display: none;
 }
-
