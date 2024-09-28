@@ -9,7 +9,6 @@ html, body{
     height: 100%;
     width: 100%;
     background: #000;
-    position: fixed;
 }
 .card{
     padding: 40px 65px;
@@ -25,6 +24,7 @@ html, body{
     body{
         align-items: flex-start;
         display: flex;
+        position: fixed;
     }
     .card {
         height: 100vh;
